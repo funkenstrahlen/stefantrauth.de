@@ -1,5 +1,5 @@
 deploy:
-	git push deploy funkenstrahlen
+	git push deploy master
 
 preview:
 	jekyll serve
