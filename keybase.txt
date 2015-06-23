@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/funkenstrahlen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://stefantrauth.de
+  * I am funkenstrahlen (https://keybase.io/funkenstrahlen) on keybase.
+  * I have a public key with fingerprint BD82 B770 25CC EE38 C91F  4533 3C11 ADE2 DB86 DC95
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "bd82b77025ccee38c91f45333c11ade2db86dc95",
+            "host": "keybase.io",
+            "key_id": "3C11ADE2DB86DC95",
+            "uid": "df78162e6610be24aaea099c9cf75800",
+            "username": "funkenstrahlen"
+        },
+        "merkle_root": {
+            "ctime": 1435059464,
+            "hash": "33234dfae69984b7db3866beff29510c4d8ac428db4ff7408d91e01f0e9eafa620835b0ffe573d50294ad4b66b88c9d891f84d8a1a78008d55457b41cea1a09d",
+            "seqno": 251323
+        },
+        "service": {
+            "hostname": "stefantrauth.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1435059944,
+    "expire_in": 157680000,
+    "prev": "f574f133bb0afab5f3c34ee5c7374be974bb60968f6a9a4894d1de8255a1dcd9",
+    "seqno": 40,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2
+Comment: GPGTools - http://gpgtools.org
+
+owFVkn9sE1UAx9vBSNxcAJ0gzHRQs6EBy/1696MMEdptaowwgiyh0nJ37117rNx1
+d9eOUcAfGMYmCKxZZRgTGItzEWUTM1wmE6PTDBhoDE7JhrhqNnFuOBgBZoJ3y4zy
+z+Xde5/3fd/v970DWdNsGXbvO88e7QHXQ/Zzvwu2l6qLRuNOQYWVTnfcKYZlpBjW
+SOG3IKfbWYYqBV5HLlldoKgQuTbrC6aYJc4Y0nRZVUwKczEuzrljiYVbmyVZCSIt
+osmWllOALCEwDEYAUUSIZEUOlyhAkqSI4zxEBBRYGoocMCVDqm7cd6pzUjMgQ3OW
+9OD4Sm8h4V3F0l7PJB+dXIASw+I0gWgaxwREUDyPeIzjRE6UGMBimAXqSJuKJEWV
+MqTohsaHwkixXG9BWlkYBTRVnYwuGrIF4hQJMMBRNGX64vWQ5YAkSApKPKI5jqUE
+BgokS9MCkiSCAzgmUpDlRYpgoUBJEkNhLORwhOEShjjESzxNYCwJBEySEGBICDCC
+o3hICaYEa7YCWbMY1tLAeca0zUIAKMAIFC4icwrjoBlER+WK6nQTADe97LD+tZgs
+Isu3Vd5URt1AEq+YEaNGyAWRuS+iqYYqqmFzMWQYEd1tBTc+rYxYeAUSAlNCAUFW
+oHl9/79f3ETvL4WjzFLQ1oisoYBsEYChTccYZh2EYlbLgKEknCQFATOTC0AiRZJC
+CIgMyVAC4syPQGMczUo0z/EUy1EQh4glAOBxKELuv6iUKWrwQSuVHFR4I6oh547q
+tMem2+wZthnpadYLtmU8MOvfZ90WmXlvdYxFpZfX5WmzHXnMI7XqpUTna8eai3PO
+L6wpzDvW802wfk53c5+vqaT25OG+RdHY0X4sVLV9TY6/oQokik/99tUfNsdhx8WZ
+va8U9NkfRJda6v7sTRaN3s26aZ9/tnHdJs97zyRqSuKYcj025vauvT1ynF+i7zvx
+l7t+v3TtZ9/Bw35P0Rvrr0w4Ns8HrZtSmR/PUIf1dVF6Ijqa+v7Erg2tRbnzUm9n
+nh4bam97a/m2/Qu5hvTGqH9NsOOH132Nc1PFq4df9KV3ZF51oPXN+Rc2Ntw60zbm
+/7upfy3yNuS3Dw9NPzPkX/lqyUPbAqne2Gh3aq8ncfOL5UT37FtFzIqXu+q7vr1T
+VZn9flF/6sdkamDLspV5ZUuXc73+eE/FefzcssGPRjaM133yZnmpsHOBKnf/+u5n
+HU8V/wT3HC+duLDTe5IlZi2rL6yANa7LN8P1+sCNfXsKwqeqHt42eKUtJ16dTO66
+t3ggu5BurDs0AvY+fmnTc1XltePfseXSnUevjUPXqvyW9k6Hcbdg3yJfYM7SaZFd
+B8/fehJu/NwXxIfkTvuR3dmdZxMDw7fPRm+4qisceb8c83U8Pa/2UKcx1hSb7slI
+7+k6/cLilH1+/OLVrK5Vc3d/6E3buLDJkfwgO3cksf3I1mT1iLZisCO35cD+54/4
+aXvPl7PXtHc9QS5u/TozsvMf
+=drw8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/funkenstrahlen
+
+==================================================================
