@@ -4,6 +4,8 @@ email:
 url: https://stefantrauth.de
 description: "Coder, Blogger, Podcaster"
 
+keep_files: [meltmail]
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#222222'
