@@ -757,6 +757,16 @@
 .footer-label span {
     color: var(--primary)
 }
+.footer-label a {
+    color: #a3afbf;
+    text-decoration: none;
+}
+.footer-label a:visited {
+    color: #a3afbf;
+}
+.footer-label a:hover {
+    color: #fff;
+}
 .footer-icons {
     height: 130px;
     display: flex;
@@ -773,6 +783,16 @@
 }
 .footer-icon:hover .footer-iconImg {
     opacity: 1
+}
+.footer-icon {
+    color: #a3afbf;
+    text-decoration: none;
+}
+.footer-icon:visited {
+    color: #a3afbf;
+}
+.footer-icon:hover {
+    color: #fff;
 }
 .footer-content .text-link:hover:after {
     background: #fff
