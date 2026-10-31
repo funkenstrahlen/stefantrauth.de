@@ -13,42 +13,107 @@
             		color: #fff;
             		background-color: #000;
             	}
+            	a {
+            		color: #4da3ff;
+            	}
             }
         </style>
 	</head>
 	<body>
 		<h1>Pollenflug Vorhersage Datenschutzerklärung</h1>
 
-		<p>Datenschutz ist wichtig. Deshalb erfasst und verarbeitet die App nur Daten, die für die Funktionen unbedingt notwendig sind.</p>
+		<p>Datenschutz ist wichtig. Deshalb erfasst und verarbeitet die App nur Daten, die für die Funktionen unbedingt notwendig sind. Die App enthält keine Werbung, kein Tracking und keine Analyse-Dienste.</p>
+
+		<h2>Verantwortlicher</h2>
+		Stefan Trauth,
+        Landhausstraße 63C,
+        70190 Stuttgart
+		<div id="meltmail"></div>
+
+		<h2>Deine Pollen und Empfindlichkeiten</h2>
+		<p>Welche Pollen dich betreffen und wie stark, lässt Rückschlüsse auf eine Allergie zu und damit auf deine Gesundheit. Deshalb bleiben diese Angaben auf deinen Geräten und in deinem privaten iCloud-Speicher. Sie werden weder an mich noch an RevenueCat noch an den Deutschen Wetterdienst übertragen.</p>
+
+		<p>Auch die Abfragen beim Deutschen Wetterdienst verraten nicht, welche Pollen dich betreffen: Die App lädt immer die Prognosen für alle Pollenarten und filtert sie auf dem Gerät.</p>
+
+		<h2>Standort und Verarbeitung auf dem Gerät</h2>
+		<p>Wenn du es erlaubst, ermittelt die App deinen Standort, standardmäßig mit reduzierter Genauigkeit. Er wird nur auf dem Gerät verwendet, um deine Prognoseregion und die nächstgelegene Wetterstation zu bestimmen und deine Position auf der Karte anzuzeigen. Der Standort wird nicht an mich übertragen und nicht über iCloud synchronisiert. Den Zugriff kannst du jederzeit in den iOS Einstellungen unter Datenschutz &amp; Sicherheit → Ortungsdienste → Pollenflug ändern.</p>
+
+		<p>Benachrichtigungen, Widgets, Siri Kurzbefehle und die persönliche Warnstufe werden ebenfalls nur auf dem Gerät berechnet.</p>
 
 		<h2>iCloud Synchronisierung</h2>
-		<p>Wenn du die App auf mehreren Geräten nutzt oder neu installierst, dann werden deine Einstellungen automatisch übernommen. Zur Synchronisierung und Sicherung nutzt die App iCloud.</p>
+		<p>Wenn du die App auf mehreren Geräten nutzt oder neu installierst, dann werden deine Pollen und Einstellungen automatisch übernommen. Zur Synchronisierung und Sicherung nutzt die App iCloud.</p>
 
-		<p>Übertragen werden die aktivierten Pollenarten und die Einstellungen für Benachrichtigungen.</p>
+		<p>Synchronisiert werden:</p>
+		<ul>
+			<li>deine Pollen und Empfindlichkeiten</li>
+			<li>Benachrichtigungen: Warnstufe und Uhrzeiten am Morgen und Abend</li>
+			<li>deine Prognoseregion</li>
+		</ul>
 
-		<p>Der aktuelle Standort wird nicht über iCloud übertragen oder gespeichert, sondern immer lokal auf dem Gerät ermittelt.</p>
+		<p>Nicht synchronisiert werden dein genauer Standort und die gespeicherten Prognosen.</p>
 
-		<p>Die iCloud Synchronisierung kann über die iOS Einstellungen deaktiviert werden.</p>
+		<p>Die Daten liegen in deinem privaten iCloud-Speicher. Ich als Entwickler habe keinen Zugriff darauf. Gespeichert werden sie von Apple, es gilt die <a href="https://www.apple.com/de/legal/privacy/">Datenschutzrichtlinie von Apple</a>.</p>
+
+		<p>Die Apple Watch App erhält deine Pollen und Einstellungen nur über iCloud. Damit du sie nutzen kannst, muss iCloud auf iPhone und Apple Watch mit derselben Apple-ID aktiv sein.</p>
+
+		<p>Ob die Synchronisierung aktiv ist, zeigt dir die App über das iCloud-Symbol unter dem Namen deiner Region. Ein Tipp darauf öffnet weitere Informationen.</p>
+
+		<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, die Bereitstellung der von dir genutzten Funktion.</p>
+
+		<h3>iCloud Synchronisierung ein- und ausschalten</h3>
+		<p>Öffne Einstellungen → [Dein Name] → iCloud → In iCloud gesichert → Apps und schalte Pollenflug ein oder aus. Ohne iCloud bleiben deine Pollen und Einstellungen nur auf diesem Gerät. Die Apple Watch App erhält dann keine Daten mehr.</p>
+
+		<h3>Daten aus iCloud löschen</h3>
+		<p>Öffne Einstellungen → [Dein Name] → iCloud → Speicher verwalten → Pollenflug → Daten löschen. Das entfernt deine Daten aus iCloud und von allen Geräten.</p>
 
 		<h2>Pollen Prognose Abfrage beim Deutschen Wetterdienst</h2>
-		<p>Die Pollenflug Prognosedaten kommen direkt vom Server des Deutschen Wetterdienst. Daher werden zur Aktualisierung der Prognose Anfragen an den Server des DWD gesendet.</p>
+		<p>Die Pollenflug Prognosedaten und die Pollenkarten kommen direkt vom Server des Deutschen Wetterdienst. Daher werden zur Aktualisierung der Prognose Anfragen an den Server des DWD gesendet.</p>
 
-		<p>Abgefragt werden immer die Prognosedaten für alle Regionen in Deutschland. Die Abfragen sind nicht bezogen auf den aktuellen Standort. Die Filterung für die eigene Region findet lokal auf dem Gerät statt.</p>
+		<p>Abgefragt werden immer die Prognosedaten für alle Regionen in Deutschland und alle Pollenarten. Die Abfragen sind nicht bezogen auf den aktuellen Standort. Die Filterung für die eigene Region findet lokal auf dem Gerät statt.</p>
 
 		<p>Technisch bedingt sieht der Server des Deutschen Wetterdienst die IP Adresse des anfragenden Gerätes.</p>
 
         <h2>Wetter Prognose Abfrage beim Deutschen Wetterdienst</h2>
 		<p>Die Wetter Prognosedaten kommen direkt vom Server des Deutschen Wetterdienst. Daher werden zur Aktualisierung der Prognose Anfragen an den Server des DWD gesendet.</p>
 
-        <p>Auf dem Endgerät des Nutzers wird zunächst lokal die nächstgelegene Wetterstation ermittelt. Dann wird die Wetterprognose für diese Wetterstation beim Deutschen Wetterdienst abgerufen. Ein Rückschluss auf den exakten Standort des Nutzers ist damit nicht möglich.</p>
+        <p>Auf dem Gerät wird zunächst lokal die nächstgelegene Wetterstation ermittelt. Dann wird die Wetterprognose für diese Wetterstation beim Deutschen Wetterdienst abgerufen. Der DWD erfährt damit nur, für welche Wetterstation die Prognose abgerufen wird, nicht deinen genauen Standort.</p>
 
 		<p>Technisch bedingt sieht der Server des Deutschen Wetterdienst die IP Adresse des anfragenden Gerätes.</p>
 
-		<h2>Kontakt</h2>
-		Stefan Trauth,
-        Landhausstraße 63C,
-        70190 Stuttgart
-		<div id="meltmail"></div>
+		<p>Rechtsgrundlage für die Abfragen beim DWD ist Art. 6 Abs. 1 lit. b DSGVO, die Bereitstellung der Prognose. Für die IP Adresse zusätzlich Art. 6 Abs. 1 lit. f DSGVO, das berechtigte Interesse, die Daten technisch abrufen zu können.</p>
+
+		<h2>Karte</h2>
+		<p>Das Kartenmaterial der Pollenkarte kommt von Apple Karten. Beim Laden sieht Apple die IP Adresse des Gerätes und den angezeigten Kartenausschnitt. Es gilt die <a href="https://www.apple.com/de/legal/privacy/">Datenschutzrichtlinie von Apple</a>.</p>
+
+		<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, für die IP Adresse zusätzlich Art. 6 Abs. 1 lit. f DSGVO.</p>
+
+		<h2>Abo-Verwaltung mit RevenueCat</h2>
+		<p>Für das Abo nutzt die App den Dienst RevenueCat der RevenueCat, Inc. (USA). Kauf und Bezahlung laufen weiterhin über den App Store von Apple. RevenueCat prüft, ob dein Abo aktiv ist, damit die App auf iPhone, iPad und Apple Watch freigeschaltet wird.</p>
+
+		<p>Dazu erhält RevenueCat die Kaufinformationen aus dem App Store, technische Angaben zum Gerät wie Gerätetyp und Betriebssystem und eine Kennung, unter der dein Abo geführt wird. Bist du bei iCloud angemeldet, ist das eine anonyme Kennung, die iCloud nur für diese App vergibt. Sie ist auf all deinen Geräten gleich, so erkennt auch die Apple Watch dein Abo. Sie enthält weder deinen Namen noch deine Apple-ID oder E-Mail-Adresse. Bist du nicht bei iCloud angemeldet, verwendet die App eine zufällige Kennung, die nur auf diesem Gerät gilt.</p>
+
+		<p>Technisch bedingt sieht der Server von RevenueCat die IP Adresse des anfragenden Gerätes. Deine Pollen, Einstellungen und dein Standort werden nicht an RevenueCat übertragen.</p>
+
+		<p>RevenueCat verarbeitet die Daten in meinem Auftrag auf Grundlage eines Vertrags zur Auftragsverarbeitung. Die Daten werden in den USA gespeichert. Die Übermittlung ist durch Standardvertragsklauseln der EU-Kommission abgesichert (Art. 46 Abs. 2 lit. c DSGVO). Details stehen in der <a href="https://www.revenuecat.com/privacy">Datenschutzerklärung von RevenueCat</a>.</p>
+
+		<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, die Abwicklung deines Abos.</p>
+
+		<h2>Speicherdauer</h2>
+		<ul>
+			<li>Auf dem Gerät: bis du die App löschst.</li>
+			<li>In iCloud: bis du die Daten löschst, wie oben beschrieben.</li>
+			<li>Bei RevenueCat: solange dein Abo geführt wird, danach nach den Fristen von RevenueCat. Auf Anfrage lasse ich die Daten löschen.</li>
+			<li>Beim Deutschen Wetterdienst und bei Apple Karten: nach deren eigenen Regeln, darauf habe ich keinen Einfluss.</li>
+		</ul>
+
+		<h2>Deine Rechte</h2>
+		<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung deiner Daten sowie auf Datenübertragbarkeit. Soweit eine Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruht, kannst du ihr widersprechen. Schreib mir dafür an die oben genannte Adresse.</p>
+
+		<p>Du kannst dich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren, zum Beispiel beim <a href="https://www.baden-wuerttemberg.datenschutz.de">Landesbeauftragten für den Datenschutz und die Informationsfreiheit Baden-Württemberg</a>.</p>
+
+		<p>Die Nutzung der App ist freiwillig. Ohne die beschriebenen Daten funktionieren einzelne Funktionen nicht, zum Beispiel ohne Standort die automatische Wahl der Region. Es findet keine automatisierte Entscheidungsfindung und kein Profiling statt.</p>
+
+		<p>Stand: November 2026</p>
 	</body>
 
 	<script type="text/javascript">
