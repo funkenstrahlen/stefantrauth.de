@@ -46,8 +46,9 @@
 		<p>Synchronisiert werden:</p>
 		<ul>
 			<li>deine Pollen und Empfindlichkeiten</li>
-			<li>Benachrichtigungen: Warnstufe und Uhrzeiten am Morgen und Abend</li>
+			<li>Benachrichtigungen: Warnstufe und Uhrzeiten am Morgen und Abend, die Tagebuch-Erinnerung und ihre Uhrzeit</li>
 			<li>deine Prognoseregion</li>
+			<li>dein Pollentagebuch, siehe unten</li>
 		</ul>
 
 		<p>Nicht synchronisiert werden dein genauer Standort und die gespeicherten Prognosen.</p>
@@ -61,10 +62,24 @@
 		<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, die Bereitstellung der von dir genutzten Funktion.</p>
 
 		<h3>iCloud Synchronisierung ein- und ausschalten</h3>
-		<p>Öffne Einstellungen → [Dein Name] → iCloud → In iCloud gesichert → Apps und schalte Pollenflug ein oder aus. Ohne iCloud bleiben deine Pollen und Einstellungen nur auf diesem Gerät. Die Apple Watch App erhält dann keine Daten mehr.</p>
+		<p>Öffne Einstellungen → [Dein Name] → iCloud → In iCloud gesichert → Apps und schalte Pollenflug ein oder aus. Ohne iCloud bleiben deine Pollen, Einstellungen und Tagebucheinträge nur auf diesem Gerät. Die Apple Watch App erhält dann keine Daten mehr. Was schon in iCloud liegt, bleibt dort, bis du es löschst.</p>
 
 		<h3>Daten aus iCloud löschen</h3>
-		<p>Öffne Einstellungen → [Dein Name] → iCloud → Speicher verwalten → Pollenflug → Daten löschen. Das entfernt deine Daten aus iCloud und von allen Geräten.</p>
+		<p>Öffne Einstellungen → [Dein Name] → iCloud → Speicher verwalten → Pollenflug → Daten löschen. Das entfernt alle Daten der App aus iCloud und von allen Geräten: deine Pollen, Einstellungen und dein Pollentagebuch. Das Tagebuch allein lässt sich so nicht löschen.</p>
+
+		<h2>Pollentagebuch</h2>
+		<p>Im Tagebuch kannst du für jeden Tag deine Beschwerden, einzelne Symptome, eingenommene Medikamente und eine Notiz festhalten. Zu jedem Eintrag speichert die App deine Prognoseregion (nicht deinen Standort) und die Pollenbelastung, die der Deutsche Wetterdienst für diesen Tag dort vorhergesagt hat, sowie für die Synchronisierung den Zeitpunkt der letzten Änderung. Wetterdaten werden nicht gespeichert.</p>
+
+		<p>Diese Angaben sind Gesundheitsdaten. Die Einträge liegen auf deinen Geräten und werden über iCloud in deinem privaten iCloud-Speicher synchronisiert, auch Einträge von der Apple Watch. Nur du hast Zugriff, ich als Entwickler kann dein Tagebuch nicht lesen, und es wird weder an mich noch an RevenueCat übertragen. Beschwerden, Symptome, Medikamente und Notizen sind in iCloud zusätzlich verschlüsselt, mit Schlüsseln aus deinem iCloud-Schlüsselbund. Setzt du den Schlüsselbund zurück, gehen diese Angaben verloren; Tag, Region und Pollenbelastung bleiben erhalten. Ohne iCloud bleibt das Tagebuch nur auf dem Gerät und wird hochgeladen, sobald iCloud verfügbar ist.</p>
+
+		<p>Die Einträge bleiben gespeichert, bis du sie löschst. Einzelne Einträge löschst du in der App, solange dein Abo aktiv ist. Alle Einträge löschst du nur zusammen mit deinen übrigen Daten, wie unter „Daten aus iCloud löschen“ beschrieben. Ohne iCloud löschst du Einträge einzeln oder indem du die App entfernst.</p>
+
+		<h3>Pollendaten für nachgetragene Tage</h3>
+		<p>Trägst du einen vergangenen Tag nach, für den die App die Vorhersage nicht mehr selbst gespeichert hat, lädt sie die damalige Vorhersage des Deutschen Wetterdienstes aus meinem Archiv unter pollenflug.stefantrauth.de. Dabei werden nur das Datum dieses Tages und, technisch bedingt, die IP Adresse des Gerätes übertragen; keine Inhalte deines Tagebuchs, nicht deine Region und nicht dein Standort.</p>
+
+		<p>Das Archiv wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc. (USA). GitHub sieht die IP Adresse und das angefragte Datum und speichert die IP Adresse aus Sicherheitsgründen. GitHub ist unter dem EU-US Data Privacy Framework zertifiziert. Details stehen in der <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>.</p>
+
+		<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, die Bereitstellung der Pollendaten für dein Tagebuch, für die IP Adresse zusätzlich Art. 6 Abs. 1 lit. f DSGVO.</p>
 
 		<h2>Pollen Prognose Abfrage beim Deutschen Wetterdienst</h2>
 		<p>Die Pollenflug Prognosedaten und die Pollenkarten kommen direkt vom Server des Deutschen Wetterdienst. Daher werden zur Aktualisierung der Prognose Anfragen an den Server des DWD gesendet.</p>
@@ -92,7 +107,7 @@
 
 		<p>Dazu erhält RevenueCat die Kaufinformationen aus dem App Store, technische Angaben zum Gerät wie Gerätetyp und Betriebssystem und eine Kennung, unter der dein Abo geführt wird. Bist du bei iCloud angemeldet, ist das eine anonyme Kennung, die iCloud nur für diese App vergibt. Sie ist auf all deinen Geräten gleich, so erkennt auch die Apple Watch dein Abo. Sie enthält weder deinen Namen noch deine Apple-ID oder E-Mail-Adresse. Bist du nicht bei iCloud angemeldet, verwendet die App eine zufällige Kennung, die nur auf diesem Gerät gilt.</p>
 
-		<p>Technisch bedingt sieht der Server von RevenueCat die IP Adresse des anfragenden Gerätes. Deine Pollen, Einstellungen und dein Standort werden nicht an RevenueCat übertragen.</p>
+		<p>Technisch bedingt sieht der Server von RevenueCat die IP Adresse des anfragenden Gerätes. Deine Pollen, Einstellungen, dein Tagebuch und dein Standort werden nicht an RevenueCat übertragen.</p>
 
 		<p>RevenueCat verarbeitet die Daten in meinem Auftrag auf Grundlage eines Vertrags zur Auftragsverarbeitung. Die Daten werden in den USA gespeichert. Die Übermittlung ist durch Standardvertragsklauseln der EU-Kommission abgesichert (Art. 46 Abs. 2 lit. c DSGVO). Details stehen in der <a href="https://www.revenuecat.com/privacy">Datenschutzerklärung von RevenueCat</a>.</p>
 
@@ -103,7 +118,8 @@
 			<li>Auf dem Gerät: bis du die App löschst.</li>
 			<li>In iCloud: bis du die Daten löschst, wie oben beschrieben.</li>
 			<li>Bei RevenueCat: solange dein Abo geführt wird, danach nach den Fristen von RevenueCat. Auf Anfrage lasse ich die Daten löschen.</li>
-			<li>Beim Deutschen Wetterdienst und bei Apple Karten: nach deren eigenen Regeln, darauf habe ich keinen Einfluss.</li>
+			<li>Tagebucheinträge: bis du sie löschst, auf dem Gerät und in iCloud.</li>
+			<li>Beim Deutschen Wetterdienst, bei Apple Karten und bei GitHub: nach deren eigenen Regeln, darauf habe ich keinen Einfluss.</li>
 		</ul>
 
 		<h2>Deine Rechte</h2>
